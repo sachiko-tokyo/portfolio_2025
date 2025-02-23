@@ -6,10 +6,9 @@ import GithubLineIcon from 'remixicon-react/GithubLineIcon'
 
 /* eslint-disable react/jsx-key */
 export const heroIcons = [
-  { icon: <FacebookCircleLineIcon />, link: '#'  },
-  { icon: <CameraLineIcon />, link: '#'  },
   { icon: <GithubLineIcon />, link: '#'  },
-  
+  { icon: <CameraLineIcon />, link: 'https://www.instagram.com/happy_ko.film/'  },
+  { icon: <FacebookCircleLineIcon />, link: '#'  }, 
 ]
 
 // About Me

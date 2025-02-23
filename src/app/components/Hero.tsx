@@ -50,12 +50,12 @@ const Hero = () => {
           </motion.div>
           <h1 className='text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl transition-colors'>Frontend developer based in Kamakura👽</h1>
         </div>
-        <div className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl'>
+        <div className='mt-8 flex justify-center gap-x-10 text-3xl text-primary sm:text-2xl'>
         {heroIcons.map((item, i) => (
           <a
             href={item.link}
             key={i}
-            className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
+            className="rounded-lg hover:bg-second hover:text-bg transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,7 +63,7 @@ const Hero = () => {
           </a>
         ))}
         </div>
-       <a href="#" className='mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light text-white capitalize tracking-wider hover:bg-red-500 transition-colors' onMouseEnter={() => setButtonHover(true)} onMouseLeave={() => setButtonHover(false)}>Talk to me!</a>
+       <a href="mailto: sachiko.dev.0811@gmail.com" className='mx-auto mt-7 block w-max rounded-lg bg-second px-3 py-1 font-light text-bg capitalize tracking-wider hover:bg-bg hover:text-primary transition-colors' onMouseEnter={() => setButtonHover(true)} onMouseLeave={() => setButtonHover(false)}>Talk to me!</a>
       </div>
     </div>
   )
